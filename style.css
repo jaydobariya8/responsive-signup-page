@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    /* height: 100px; */
+    width: 100%;
+    background: linear-gradient(45deg, #5c87ff, #4be45f, #5c87ff, #4be45f);
+    display: flex;
+}
+.logo_image{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 10px 0 10px 0;
+}
+.image{
+    margin-left: 15%;
+
+}
+.navbar_text{
+    color: rgb(10, 1, 1);
+    padding-left:4% ;
+}
+.jay{
+    font-size: calc(20px + 1vw);
+}
+.navbar_item{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+/* main content  */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px 0 0 0;
+    /* background-color: #008bfc; */
+}
+
+.input_fild{
+    /* width: 25vw; */
+    width: calc(250px + 2vw);
+    /* height: 5.5vh; */
+    height: 38px;
+    margin: 0 5vw 0 0;
+    background-color: #E8E8E8;
+    padding: 0 0.5vw 0 0.5vw;
+    border-radius: 3px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.input_fild:focus{
+    border: 2.15px solid green;
+    outline: none;
+}
+.arrow select{ 
+    appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none; 
+}
+.arrow .fa-sort-down{
+    position: relative  ;
+    right: 468px;
+    /* right: 32%; */
+    /* right: calc(450px + 1vw); */
+    /* right: 29em; */
+    /* right:348pt; */
+    /* right: 29pc; */
+    color: green;
+}
+.clip{
+    -webkit-clip-path: polygon(48% 48%, 0 100%, 100% 100%);
+    background-color: #0CCE05;
+    width: 19px;
+    height: 19px;
+    transform: rotate(180deg);
+    position: relative;
+    bottom: 23px;
+    left: 230px;
+}
+.btn{
+    float: right;
+    /* width: 11.4vw; */
+    width: 100px;
+    /* height: 6.2vh; */
+    height: 38px;
+    /* font-size: ; */
+    margin: 2vh 6vw 0 0;
+    border: 2.15px solid green;
+    outline: none;
+    border-radius: 4px;
+    background-color: #E8E8E8;
+}
+.btn:hover{
+    box-shadow: 2px 2px 22px 1px #0CCE05;
+}
+.btn:focus{
+    background-color: #0CCE05;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+}
+.taxt_area{
+    width: calc(250px + 2vw);
+    background-color: #E8E8E8;
+}
+.taxt_area:focus{
+    border: 2.15px solid green;
+    outline: none;
+
+}
+.title{
+    margin: 1rem 0 0.2rem 0;
+    font-size: 19px;
+}
+.green{
+    height: 1.4em;
+    width: 1.4em;
+    accent-color: rgb(89, 250, 83);
+}
+.checkbox_text{
+    font-size: 18px;
+}
+
